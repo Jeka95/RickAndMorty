@@ -22,6 +22,7 @@
       flex-wrap: wrap;
    }
    &__item {
+      height: fit-content;
       display: flex;
       flex-direction: column;
       margin: 20px 10px;
