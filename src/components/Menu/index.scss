@@ -1,0 +1,22 @@
+.menu {
+   background: rgb(101, 153, 52);
+
+   &__items {
+      height: 50px;
+      display: flex;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+   }
+   &__linc {
+      color: white;
+      background: rgb(81, 105, 86);
+      margin-right: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      :hover {
+         color: yellowgreen;
+      }
+   }
+}

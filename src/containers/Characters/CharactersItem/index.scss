@@ -1,0 +1,43 @@
+.modal {
+   &__header {
+      display: flex;
+      flex-direction: column;
+   }
+   &__info {
+      margin-bottom: 10px;
+   }
+   &__title {
+      text-align: center;
+      font-size: 26px;
+   }
+   &__img {
+      border-radius: 10px;
+   }
+   &__close {
+      border: 1px solid red;
+      border-radius: 25px;
+      align-self: flex-end;
+   }
+   &__content {
+      font-size: 18px;
+   }
+
+   &__subtitle {
+      text-align: center;
+      font-size: 1.2em;
+   }
+   &__gender {
+      margin-bottom: 7px;
+   }
+   &__origin {
+      margin-bottom: 7px;
+   }
+   &__status {
+      margin-bottom: 7px;
+   }
+   &__spesies {
+      margin-bottom: 7px;
+   }
+   &__location {
+   }
+}
